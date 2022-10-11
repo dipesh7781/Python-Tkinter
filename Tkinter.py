@@ -21,9 +21,9 @@ age_var = tk.StringVar()
 age_entrybox= tk.Entry(window, width=15, textvariable=age_var)
 age_entrybox.grid(row=1, column=1)
 
-# email_var = tk.StringVar()
-# email_entrybox= tk.Entry(window, width=15, textvariable=email_var )
-# email_entrybox.grid(row=2, column=1)
+email_var = tk.StringVar()
+email_entrybox= tk.Entry(window, width=15, textvariable=email_var )
+email_entrybox.grid(row=2, column=1)
 
 
 window.mainloop()
