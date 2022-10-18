@@ -25,6 +25,19 @@ email_var = tk.StringVar()
 email_entrybox= tk.Entry(window, width=15, textvariable=email_var )
 email_entrybox.grid(row=2, column=1)
 
+gender_var = tk.StringVar()
+gender_entrybox= tk.Entry(window, width=15, textvariable= gender_var)
+gender_entrybox.grid(row=3, column=1)
+
+#Button
+def action():
+    # username= name_var.get()
+    # userage= age_var.get()
+    # useremail= email_var.get
+  submit_Button =tk.Button(window, text="Submit", command= action)
+  submit_Button.grid(row=4, column=1)
+
+
 
 window.mainloop()
 
